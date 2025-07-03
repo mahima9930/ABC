@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    padding-top: 40px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #a9802a;
+    border-top: 1px solid #a9802a;
+}
+
+.logo img {
+    width: 50%;
+    height: auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.cakes-section {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background-color: aliceblue;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.side-menu {
+    top: 120px;
+    left: 0;
+    width: 140px;
+    background-color: #fff3cd;
+    padding: 20px 10px;
+    border-right: 1px solid #a9802a;
+    z-index: 1000;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+
+.side-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #856404;
+    font-size: 16px;
+    display: block;
+}
+
+.cake {
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.cake img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cake-info {
+    padding: 10px;
+}
+
+.cake-info h3 {
+    font-family: Overlock, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #a9802a;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.cake-info p {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.last-section {
+    width: 100%;
+    background: rgb(208, 137, 149);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.head h1 {
+    color: #a9802a;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.head p {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.menu-types {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.types {
+    text-align: center;
+}
+
+.types img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.types h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #a9802a;
+    text-transform: uppercase;
+}
+
+.body {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.promise h1 {
+    color: #a9802a;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.promise p {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.our-promise {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.main img {
+    width: 139px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.main h3 {
+    text-align: center;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 3fr;
+    margin: auto;
+    background-image: url(image/lastimg.webp);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.footer img {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50%;
+    height: auto;
+}
+
+.footer-section ul {
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.form {
+    padding: 10px;
+    margin: auto;
+    line-height: 30px;
+}
+
+.detail p {
+    color: #212529;
+    text-align: left;
+    padding: 7px;
+    margin: 5px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-section input {
+    padding: 10px 40px;
+}
